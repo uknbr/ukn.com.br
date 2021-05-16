@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-AWS_PROFILE=pedro
+AWS_PROFILE=hugo
 S3_BUCKET=ukn.com.br
 CLOUDFRONT_ID=E2USKOXQ4UROD
 SOURCE_DIR=public
@@ -26,6 +26,7 @@ timeout=5
 for i in $(seq 1 ${timeout}) ; do
 	echo "[${i}/${timeout}] checking"
 	status=$(aws cloudfront list-distributions --profile ${AWS_PROFILE} | jq -r ".DistributionList.Items[] | select(.Id ==\"$CLOUDFRONT_ID\") | .Status")
+	#aws cloudfront list-distributions --query "DistributionList.Items[].{Status: Status, Domain: DomainName, OriginDomainName: Origins.Items[0].DomainName}[?contains(OriginDomainName, 'ukn.com.br')] | [0]" --profile hugo
 	if [ "${status}" == "Deployed" ] ; then
 		echo "Deployment completed!"
 		exit 0
@@ -34,6 +35,3 @@ for i in $(seq 1 ${timeout}) ; do
 done
 
 exit 1
-
-# latest photo number
-#find assets/ -type f -iname 'photo_*' | awk -F '/' '{ print $NF }' | tr -d '[a-z]' | tr -d '.' | tr -d '_' | sort -n | tail -n 1
