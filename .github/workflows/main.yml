@@ -42,8 +42,17 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
 
-      - name: Invalidate Cloudfront cache
+      - name: Invalidate CloudFront cache
         run: aws cloudfront create-invalidation --distribution-id=${{ secrets.CLOUDFRONT_ID }} --paths /
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
+
+      - name: CloudFront status
+        run: |
+          sleep 5
+          aws cloudfront list-distributions --query "DistributionList.Items[].{Status: Status, Domain: DomainName, OriginDomainName: Origins.Items[0].DomainName}[?contains(OriginDomainName, '${{ secrets.S3_BUCKET }}')] | [0]" | grep -q Deployed
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
