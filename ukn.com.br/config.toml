@@ -1,0 +1,28 @@
+baseURL = "https://ukn.com.br"
+languageCode = "en-us"
+title = "Opala 75"
+theme = "autophugo"
+
+[Author]
+    name = "Pedro Pavan"
+    email = "pedro.pavan@linuxmail.org"
+
+[params]
+    description = "Opala Photo Gallery"
+    keywords = "opala, antigo, chevrolet, photo, album"
+    thumb_width = 420
+    thumb_quality = 90
+    column_count = 2
+
+    # About
+    [[params.header.links]]
+    name = "About"
+    url = "https://github.com/uknbr"
+    icon = "fa-github"
+
+    [params.footer.social]
+    headline = "Follow me"
+
+    # Copyright
+    [params.footer.copyright]
+    name = "Pedro Pavan"

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Olx on Opala 75</title>
+    <link>https://ukn.com.br/olx/</link>
+    <description>Recent content in Olx on Opala 75</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>pedro.pavan@linuxmail.org (Pedro Pavan)</managingEditor>
+    <webMaster>pedro.pavan@linuxmail.org (Pedro Pavan)</webMaster>
+    <lastBuildDate>Thu, 22 Apr 2021 21:48:36 -0300</lastBuildDate>
+    
+	<atom:link href="https://ukn.com.br/olx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
