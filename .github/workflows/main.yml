@@ -28,9 +28,8 @@ jobs:
         run: ${HOME}/hugo version
 
       - name: Hugo files
-        run: ls -lrt
-
-      - name: Test secret
         run: |
-          echo Secrets:
-          echo ${{ secrets.AWS_REGION }}
+          pwd
+          ls -lrt
+          id
+          hostnamectl
