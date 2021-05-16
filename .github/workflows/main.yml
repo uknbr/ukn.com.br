@@ -13,7 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
       - name: Install Hugo
@@ -21,12 +20,15 @@ jobs:
           HUGO_DOWNLOAD=hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
           wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_DOWNLOAD}
           tar xvzf ${HUGO_DOWNLOAD} hugo
-          mv hugo ${HOME}/hugo
+          mv -v hugo ${HOME}/hugo
         env:
           HUGO_VERSION: 0.83.1
 
       - name: Hugo Version
         run: ${HOME}/hugo version
+
+      - name: Hugo files
+        run: ls -lrt
 
       - name: Test secret
         run: |
