@@ -6,10 +6,6 @@ S3_BUCKET=ukn.com.br
 CLOUDFRONT_ID=E2USKOXQ4UROD
 SOURCE_DIR=public
 
-#export AWS_ACCESS_KEY_ID=xxxxxxxxxxx
-#export AWS_SECRET_ACCESS_KEY=xxxxxxxxx
-#export AWS_DEFAULT_REGION=eu-west-1
-
 echo "Building"
 cd ${S3_BUCKET}
 hugo
