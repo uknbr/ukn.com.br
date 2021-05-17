@@ -1,7 +1,8 @@
 # Deploy my page
 
-- Hugo
+- [Hugo](https://github.com/gohugoio/hugo)
+- [AutoPhugo](https://github.com/kc0bfv/autophugo )
 - S3
 - CloudFront
 
-Access [here](https://ukn.com.br)
+Check it out - [ukn.com.br](https://ukn.com.br)
