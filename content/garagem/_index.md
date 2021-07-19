@@ -12,4 +12,7 @@ resources:
 - src: "garagem/photo_43.jpg"
 - src: "garagem/photo_44.jpg"
 - src: "garagem/photo_46.jpg"
+- src: "garagem/photo_59.jpg"
+- src: "garagem/photo_60.jpg"
+- src: "garagem/photo_61.jpg"
 ---
