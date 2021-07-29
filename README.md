@@ -1,4 +1,4 @@
-# Deploy my page
+# Deploy my own page
 
 - [Hugo](https://github.com/gohugoio/hugo)
 - [AutoPhugo](https://github.com/kc0bfv/autophugo )
