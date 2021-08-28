@@ -4,6 +4,8 @@ date: 2021-04-22T21:37:39-03:00
 albumthumb: "garagem/photo_41.jpg"
 draft: false
 resources:
+- src: "garagem/photo_71.jpg"
+- src: "garagem/photo_70.jpg"
 - src: "garagem/photo_61.jpg"
 - src: "garagem/photo_60.jpg"
 - src: "garagem/photo_59.jpg"
