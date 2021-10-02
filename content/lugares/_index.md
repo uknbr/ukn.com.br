@@ -7,4 +7,5 @@ resources:
 - src: "lugares/photo_77.jpg"
 - src: "lugares/photo_78.jpg"
 - src: "lugares/photo_79.jpg"
+- src: "lugares/photo_80.jpg"
 ---
