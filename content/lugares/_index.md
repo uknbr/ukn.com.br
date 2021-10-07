@@ -1,6 +1,6 @@
 ---
 title: "Lugares"
-date: 2021-09-25T20:45:59Z
+date: 2021-09-25T20:45:57Z
 albumthumb: "lugares/photo_78.jpg"
 draft: false
 resources:
