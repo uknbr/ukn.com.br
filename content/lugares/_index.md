@@ -10,4 +10,5 @@ resources:
 - src: "lugares/photo_80.jpg"
 - src: "lugares/photo_83.jpg"
 - src: "lugares/photo_84.jpg"
+- src: "lugares/photo_85.jpg"
 ---
