@@ -10,7 +10,6 @@ resources:
 - src: "oficina/photo_64.jpg"
 - src: "oficina/photo_65.jpg"
 - src: "oficina/photo_66.jpg"
-- src: "oficina/photo_67.jpg"
 - src: "oficina/photo_68.jpg"
 - src: "oficina/photo_69.jpg"
 - src: "oficina/photo_62.jpg"
