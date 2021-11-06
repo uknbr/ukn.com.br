@@ -24,7 +24,8 @@ jobs:
       - name: Hugo Build
         run: |
           ${HOME}/hugo -v
-          sed -i 's/Opala 75 - Opala 75/Opala/g' public/index.html        
+          sed -i 's/Opala 75 - Opala 75/Opala/g' public/index.html
+          cp robots.txt public/robots.txt
 
       - name: S3 sync
         run: |
