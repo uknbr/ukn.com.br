@@ -16,7 +16,7 @@ jobs:
           tar xvzf ${HUGO_DOWNLOAD} hugo
           mv -v hugo ${HOME}/hugo
         env:
-          HUGO_VERSION: 0.83.1
+          HUGO_VERSION: 0.89.4
 
       - name: Hugo Version
         run: ${HOME}/hugo version
