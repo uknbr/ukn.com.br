@@ -4,9 +4,10 @@ date: 2021-04-22T21:44:46-03:00
 albumthumb: "oficina/photo_25.jpg"
 draft: false
 resources:
-- src: "oficina/photo_74.jpg"
-- src: "oficina/photo_75.jpg"
+- src: "oficina/photo_89.png"
 - src: "oficina/photo_76.jpg"
+- src: "oficina/photo_75.jpg"
+- src: "oficina/photo_74.jpg"
 - src: "oficina/photo_64.jpg"
 - src: "oficina/photo_65.jpg"
 - src: "oficina/photo_66.jpg"
