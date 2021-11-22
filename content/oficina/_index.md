@@ -34,6 +34,5 @@ resources:
 - src: "oficina/photo_23.jpg"
 - src: "oficina/photo_22.jpg"
 - src: "oficina/photo_21.jpg"
-- src: "oficina/photo_18.jpg"
 - src: "oficina/photo_17.jpg"
 ---
