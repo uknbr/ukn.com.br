@@ -11,7 +11,7 @@ theme = "autophugo"
     description = "Opala Photo Gallery"
     keywords = "opala, antigo, chevrolet, photo, album"
     thumb_width = 420
-    thumb_quality = 90
+    thumb_quality = 100
     column_count = 2
 
     # About
