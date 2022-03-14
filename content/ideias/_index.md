@@ -16,4 +16,5 @@ resources:
 - src: "ideias/photo_54.jpg"
 - src: "ideias/photo_99.jpg"
 - src: "ideias/photo_100.jpg"
+- src: "ideias/photo_111.jpg"
 ---

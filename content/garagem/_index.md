@@ -17,4 +17,9 @@ resources:
 - src: "garagem/photo_41.jpg"
 - src: "garagem/photo_20.jpg"
 - src: "garagem/photo_19.jpg"
+- src: "garagem/photo_101.jpg"
+- src: "garagem/photo_102.jpg"
+- src: "garagem/photo_103.jpg"
+- src: "garagem/photo_105.jpg"
+- src: "garagem/photo_107.jpg"
 ---
