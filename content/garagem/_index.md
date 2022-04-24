@@ -22,4 +22,5 @@ resources:
 - src: "garagem/photo_103.jpg"
 - src: "garagem/photo_105.jpg"
 - src: "garagem/photo_107.jpg"
+- src: "garagem/photo_112.jpg"
 ---
